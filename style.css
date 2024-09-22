@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+
+/** First Header Line(Navbar) **/
+
+.navbar {
+    height: 62px;
+    background-color: #367944;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    background-image: url(GreenyLogo.png);
+    background-size: cover;
+    border-radius: 4px;
+    height: 65px;
+    width: 70px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border0:hover {
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.border:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.add1 {
+    color: #CCCCCC;
+    font-size: 0.86rem;
+    margin-left: 20px;
+}
+
+.add2 {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.nav-search {
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #367944;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #CCCCCC;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid white;
+}
+
+.search-input {
+    width: 95%;
+    font-size: 1rem;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.search-icon {
+    margin-left: 3px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #54c871;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 5px solid #367944;
+}
+
+span {
+    margin-left: 100px;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.nav2 {
+    margin-left: 100px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i {
+    font-size: 26px;
+}
+
+.nav-cart {
+    margin-left: 100px;
+    font-size: 0.9rem;
+    font-weight: 650;
+}
+
+.nav-cart:hover {
+    border: 5px solid #367944;
+}
+
+hr {
+    height: 1px;
+    background-color: #2a803f;
+    border: none;
+}
+
+
+/** Second Header Line(Sub Navbar) **/
+
+.panel {
+    height: 40px;
+    background-color: #46a85e;
+    display: flex;
+    color: white;
+    font-weight: 200;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all:hover {
+    border: 5px solid #46a85e;
+}
+.panel-opt p {
+    display: inline;
+    margin-left: 60px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.panel-opt {
+    width: 80%;
+    
+    
+}
+
+.panel-deals {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.panel-deals:hover {
+    border: 4px solid #46a85e;
+}
+
+
+/** Hero Section **/
+
+.hero-sec {
+    background-image: url(Hero-Sec.svg);
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    color: #0f6123;
+    height: 35px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 340px;
+
+}
+
+.hero-msg a {
+    cursor: pointer;
+    color: #001785;
+    text-decoration: underline;
+}
+
+/** Shopping Section **/
+
+
+.shop-sec {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #A2E1B5;
+    height: 570px;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color:white ;
+    padding: 2opx 0px 15px;
+    margin-top: -300px;
+    border-radius: 5px;
+    margin-bottom: 350px;
+}
+
+.box-img {
+    height: 330px;
+    background-size: cover;
+}
+
+.box-content {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.box-content p:hover {
+    cursor: pointer;
+    color: #2b4ae8;
+    text-decoration: underline;
+}
+
+
+/** Footer Panels **/
+
+
+.footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color: #034b19;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+.foot-panel1 p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.foot-panel2 {
+    background-color: #c7fad6;
+    color: rgba(0, 98, 0, 0.747);
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+ul a {
+    cursor: pointer;
+    display: block;
+    font-size: 1.1rem;
+    margin-top: 12px;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.foot-panel3 {
+    height: 80px;
+    background-color: #cbfdda;
+    color: rgba(0, 98, 0, 0.766);
+    border-top: 2px solid #034b19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(GreenyLogo.png);
+    background-size: cover;
+    height: 80px;
+    width: 85px;
+    border-radius: 6px;
+}
+
+.foot-panel4 {
+    height: 50px;
+    background-color: #e2fcea;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.foot-panel4-1 {
+    font-size: 1.1rem;
+    padding-top: 15px;
+}
+
+.foot-panel4-1 {
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
